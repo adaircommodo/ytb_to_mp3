@@ -22,6 +22,15 @@ def download_youtube_video_as_mp3(url, output_path="."):
 
 # Exemplo de uso
 if __name__ == "__main__":
+    """
+    Exemplo de uso:
+    python app.py
+    
+    Preencha a lista de links abaixo e execute o código.
+
+    Obs.: se o link for uma lista de vídeos, será todos os vídeos da lista.
+    """
+
 
     urls = [
         "https://www.youtube.com/watch?v=3dK2B0o-Vxo&list=PLwUcLHw8fMWKUAeVtZjU1_13PcySGWPYB"
